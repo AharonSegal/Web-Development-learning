@@ -1,0 +1,108 @@
+.gradient-background {
+    background: linear-gradient(300deg, #5800FF, #00D7FF, #00D7FF);
+    background-size: 180% 180%;
+    animation: gradient-animation 18s ease infinite;
+  }
+  
+  @keyframes gradient-animation {
+    0% {
+      background-position: 0% 50%;
+    }
+    50% {
+      background-position: 100% 50%;
+    }
+    100% {
+      background-position: 0% 50%;
+    }
+  }
+  
+  .icon-square {
+    width: 3rem;
+    height: 3rem;
+    border-radius: 0.75rem;
+  }
+  
+  .profile-img {
+    border-radius: 50%;
+    height: 100px;
+  }
+  
+.cont_yellow {
+  color: #FFE873;
+}
+
+.cont_pink {
+  color: #FA3284;
+}
+.btn-primary,  .btn-primary:visited {
+  background-color: #FFE873 !important;
+  border-color: #FFE873 !important;
+}
+.btn-primary:hover {
+  background-color: #FAE370 !important;
+  border-color: #FAE370 !important;
+}
+.btn-primary:active {
+  background-color: #F5DE6E !important;
+  border-color: #F5DE6E !important;
+}
+
+
+
+ .btn-outline-secondary  {
+  border-color: #FA3284 !important;
+}
+.btn-outline-secondary:hover {
+  background-color: #FA3284 !important;
+  border-color: #FA3284 !important;
+}
+.btn-outline-secondary:active {
+  background-color: #F23081 !important;
+  border-color: #F23081 !important;
+}
+
+.black-font {
+  color: #000000;
+}
+.white-font {
+  color: #FFFFFF;
+}
+
+.feature-icon {
+  width: 4rem;
+  height: 4rem;
+  border-radius: .75rem;
+}
+
+html, body {
+  height: 100%;
+}
+
+
+
+.card {
+  margin-bottom: 5  ;
+}
+
+
+/* VIDEO */
+
+.video-container {
+  max-width: 100%;
+  margin: 0 auto;
+  text-align: center; /* Center the video container on desktop */
+}
+
+video {
+  width: 100%;
+  height: auto;
+}
+
+/* Media query for phones */
+@media only screen and (max-width: 767px) {
+  .video-container {
+      text-align: left; /* Reset text alignment for full width on phones */
+  }
+}
+
+
