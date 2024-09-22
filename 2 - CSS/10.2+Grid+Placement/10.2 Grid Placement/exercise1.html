@@ -18,15 +18,26 @@
       grid-template-columns: 1fr 1fr 1.5fr;
       grid-template-rows: 1fr 1fr;
     }
-
     .item {
       font-size: 5rem;
       color: white;
       font-family: Arial, Helvetica, sans-serif;
       background-color: blueviolet;
-      /* TODO: Use Flexbox to align the text to the center horizontally and vertically. 
-      See goal1 image.
-      */
+      display: flex;
+      align-items: center;
+      justify-content: center;
+    }
+    .cowboy {
+      background-color: #00B9FF;
+      grid-column: span 2;
+    }
+    .astronaut {
+      background-color: #03989E;
+      grid-column: span 2;
+    }
+    .book {
+        background-color: #ff881934;
+        grid-area: 1 / 2 / 3 / 4
     }
   </style>
 </head>

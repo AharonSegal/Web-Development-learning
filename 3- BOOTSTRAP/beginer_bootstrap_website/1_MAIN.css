@@ -1,0 +1,93 @@
+/* used do footer will fill bottom */
+html, body {
+  height: 100%;
+}
+
+/* gradient backround */
+
+.gradient-background {
+    background: linear-gradient(300deg, #5800FF, #00D7FF, #00D7FF);
+    background-size: 180% 180%;
+    animation: gradient-animation 18s ease infinite;
+  }
+  
+  @keyframes gradient-animation {
+    0% {
+      background-position: 0% 50%;
+    }
+    50% {
+      background-position: 100% 50%;
+    }
+    100% {
+      background-position: 0% 50%;
+    }
+  }
+/* gradient backround */
+
+/* FEATURES ICON */
+.feature-icon {
+  width: 4rem;
+  height: 4rem;
+  border-radius: .75rem;
+}
+/* FEATURES ICON */
+  
+
+/* FONT CONTRAS COLORS */
+.cont_yellow {
+  color: #FFE873;
+}
+
+.cont_pink {
+  color: #FA3284;
+}
+
+/* BUTTON COLORS */
+.btn-primary,  .btn-primary:visited {
+  background-color: #FFE873 !important;
+  border-color: #FFE873 !important;
+}
+.btn-primary:hover {
+  background-color: #FAE370 !important;
+  border-color: #FAE370 !important;
+}
+.btn-primary:active {
+  background-color: #F5DE6E !important;
+  border-color: #F5DE6E !important;
+}
+
+ .btn-outline-secondary  {
+  border-color: #FA3284 !important;
+}
+.btn-outline-secondary:hover {
+  background-color: #FA3284 !important;
+  border-color: #FA3284 !important;
+}
+.btn-outline-secondary:active {
+  background-color: #F23081 !important;
+  border-color: #F23081 !important;
+}
+/* BUTTON COLORS */
+
+/* FONT BLACK - WHITE */
+.black-font {
+  color: #000000;
+}
+.white-font {
+  color: #FFFFFF;
+}
+/* FONT BLACK - WHITE */
+
+.carousel {
+  max-width: 600px; 
+  margin: 0 auto; 
+}
+
+.carousel-inner {
+  border-radius: 10px;
+}
+
+.carousel-item img {
+  border-radius: 10px;
+}
+

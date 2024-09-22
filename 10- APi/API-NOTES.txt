@@ -1,0 +1,22 @@
+API Endpoints:
+
+An API endpoint is the specific URL or location where an API can be accessed.
+It represents a resource or a specific piece of functionality that the API provides.
+Each endpoint typically corresponds to a specific HTTP method (e.g., GET, POST, PUT, DELETE) and a unique URL path.
+Examples of API endpoints: /users, /products, /orders, /login, etc.
+
+
+Query Parameters:
+
+Query parameters are additional pieces of information that can be appended to the end of an API endpoint's URL.
+They are used to provide additional context or filters to the API request.
+Query parameters are typically represented as key-value pairs, separated by an equal sign (=) and joined with an ampersand (&).
+Examples of query parameters: ?limit=10&offset=20&sortBy=name, ?search=apple&category=electronics.
+
+
+Path Parameters:
+
+Path parameters are dynamic parts of the API endpoint's URL that represent specific resources or entities.
+They are used to specify a unique identifier or a specific instance of a resource within the API.
+Path parameters are typically denoted by a placeholder, such as a variable name enclosed in curly braces: /users/{userId}, /products/{productId}.
+When making an API request, the actual values for the path parameters are substituted in the URL.
